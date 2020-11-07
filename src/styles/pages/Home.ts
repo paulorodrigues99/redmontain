@@ -21,3 +21,24 @@ export const Container = styled.div`
     line-height: 32px;
   }
 `
+
+export const FormInput = styled.form`
+  width: 50vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  input {
+    font-size: 14px;
+    margin-top: 5px;
+    color: ${props => props.theme.colors.primary};
+  }
+
+  p {
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+`
